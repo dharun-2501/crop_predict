@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import joblib
 
@@ -130,4 +130,4 @@ if st.button("🌿 Predict Best Crop", use_container_width=True):
 
     except Exception as e:
         st.error(f"❌ Prediction failed: {e}")
->>>>>>> 91b8cfd97d18ced647133867d1cc16de9492f143
+
