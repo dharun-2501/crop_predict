@@ -24,7 +24,7 @@ if st.button("🌿 Predict Best Crop"):
         st.success(f"✅ The best crop for farming is: **{crop_name}**")
     except Exception as e:
         st.error(f"Prediction failed: {e}")
-=======
+
 import streamlit as st
 import joblib
 import random
